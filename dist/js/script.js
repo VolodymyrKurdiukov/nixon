@@ -408,3 +408,12 @@ DynamicAdapt.prototype.arraySort = function (arr) {
 
 const da = new DynamicAdapt("max");
 da.init();
+
+$(document).ready(function () {
+	$('.slider-main').slick({
+		slidesToShow: 1,
+		arrows: false,
+		dots: false,
+		slidesToScroll: 1,
+	});
+});
