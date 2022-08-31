@@ -412,8 +412,8 @@ da.init();
 $(document).ready(function () {
 	$('.slider-main').slick({
 		slidesToShow: 1,
-		arrows: false,
-		dots: false,
+		arrows: true,
+		dots: true,
 		slidesToScroll: 1,
 	});
 });
