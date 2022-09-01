@@ -418,7 +418,7 @@ $(document).ready(function () {
 	});
 
 	$('.brands__button').click(function (event) {
-		$(this).toggleClass('active').next().slideToggle(300);
+		$(this).toggleClass('active').next().slideToggle(700);
 	});
 
 	new WOW().init();
