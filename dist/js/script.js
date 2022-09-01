@@ -420,4 +420,6 @@ $(document).ready(function () {
 	$('.brands__button').click(function (event) {
 		$(this).toggleClass('active').next().slideToggle(300);
 	});
+
+	new WOW().init();
 });
