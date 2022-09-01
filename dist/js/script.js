@@ -416,4 +416,8 @@ $(document).ready(function () {
 		dots: true,
 		slidesToScroll: 1,
 	});
+
+	$('.brands__button').click(function (event) {
+		$(this).toggleClass('active').next().slideToggle(300);
+	});
 });
